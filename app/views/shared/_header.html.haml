@@ -31,9 +31,9 @@
               .fas.fa-check
               .to-do-text やることリスト
           - else
-            = link_to new_user_session_path, class: "no-line link-no-decoration" do
-              .header-btn.header-btn__login
-                ログイン
             = link_to new_user_registration_path, class: "no-line link-no-decoration" do
               .header-btn.header-btn__signup
                 新規会員登録
+            = link_to new_user_session_path, class: "no-line link-no-decoration" do
+              .header-btn.header-btn__login
+                ログイン
