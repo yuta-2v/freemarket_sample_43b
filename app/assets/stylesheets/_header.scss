@@ -167,3 +167,130 @@
     }
   }
 }
+            .to-do-list-table{
+              display: none;
+              position: absolute;
+              width: 320px;
+              margin-left: 50px;
+
+              &--message--new{
+                border-bottom: 1px solid rgb(245, 245, 245);
+                height: 100px;
+                background: #fff;
+
+                  .image-todo-list{
+                    margin-top: 15px;
+                    height: 60px;
+                    width: 60px;
+                    padding: 5px;
+                    overflow: auto;
+                  }
+
+                &--content{
+                  display: inline-block;
+                  overflow: auto;
+
+                  &--text{
+                    font-size: 14px;
+                    line-height: 1.5;
+                    display: block;
+                    width: 240px;
+                  }
+                  .fas.fa-angle-right{
+                    float: right;
+                    margin-bottom: 20px;
+                    font-size: 12px;
+                  }
+
+                  .far.fa-clock{
+                    color: #5f5f5f;
+                    font-size: 12px;
+                  }
+
+                  &--date{
+                    display: inline-block;
+                    font-size: 12px;
+                  }
+                }
+              }
+              &--message--second{
+                border-bottom: 1px solid rgb(245, 245, 245);
+                height: 100px;
+                background: #fff;
+
+                  .image-todo-list{
+                    margin-top: 15px;
+                    height: 60px;
+                    width: 60px;
+                    padding: 5px;
+                    overflow: auto;
+                  }
+
+                &--content{
+                  display: inline-block;
+                  overflow: auto;
+
+                  &--text{
+                    font-size: 14px;
+                    line-height: 1.5;
+                    display: block;
+                    width: 240px;
+                  }
+                  .fas.fa-angle-right{
+                    float: right;
+                    margin-bottom: 20px;
+                    font-size: 12px;
+                  }
+
+                  .far.fa-clock{
+                    color: #5f5f5f;
+                    font-size: 12px;
+                  }
+
+                  &--date{
+                    display: inline-block;
+                    font-size: 12px;
+                  }
+                }
+              }
+              &--message--third{
+                border-bottom: 1px solid rgb(245, 245, 245);
+                height: 100px;
+                background: #fff;
+
+                  .image-todo-list{
+                    margin-top: 15px;
+                    height: 60px;
+                    width: 60px;
+                    padding: 5px;
+                    overflow: auto;
+                  }
+
+                &--content{
+                  display: inline-block;
+                  overflow: auto;
+
+                  &--text{
+                    font-size: 14px;
+                    line-height: 1.5;
+                    display: block;
+                    width: 240px;
+                  }
+                  .fas.fa-angle-right{
+                    float: right;
+                    margin-bottom: 20px;
+                    font-size: 12px;
+                  }
+
+                  .far.fa-clock{
+                    color: #5f5f5f;
+                    font-size: 12px;
+                  }
+
+                  &--date{
+                    display: inline-block;
+                    font-size: 12px;
+                  }
+                }
+              }
+            }

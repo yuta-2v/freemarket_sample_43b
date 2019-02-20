@@ -30,6 +30,28 @@
             .list-to-do
               .fas.fa-check
               .to-do-text やることリスト
+            .to-do-list-table
+              .to-do-list-table--message--new
+                = image_tag "https://gqjapan.jp/uploads/media/2017/02/17/ferrari-812-superfast_01-170-170.jpg", class: "image-todo-list"
+                .to-do-list-table--message--new--content
+                  .to-do-list-table--message--new--content--text 『フェラーリ　$100,000』取引メッセージがあります。
+                  .fas.fa-angle-right
+                  .far.fa-clock
+                  .to-do-list-table--message--new--content--date 1日前
+              .to-do-list-table--message--second
+                = image_tag "https://response.jp/imgs/p/HyHJUDsvwEJjLfURx1fZfoRN5UBBQkNERUZH/1274857.jpg", class: "image-todo-list"
+                .to-do-list-table--message--second--content
+                  .to-do-list-table--message--second--content--text 『アストンマーチン db11』についての取引メッセージがあります。
+                  .fas.fa-angle-right
+                  .far.fa-clock
+                  .to-do-list-table--message--second--content--date 7日前
+              .to-do-list-table--message--third
+                = image_tag "https://stock-income.club/wp-content/uploads/2017/12/525e6bb07c5b00879afef65810968234.jpg", class: "image-todo-list"
+                .to-do-list-table--message--third--content
+                  .to-do-list-table--message--third--content--text 『ダイヤモンド』についての取引メッセージがあります。
+                  .fas.fa-angle-right
+                  .far.fa-clock
+                  .to-do-list-table--message--third--content--date 18日前
           - else
             = link_to new_user_registration_path, class: "no-line link-no-decoration" do
               .header-btn.header-btn__signup
