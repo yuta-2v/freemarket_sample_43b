@@ -147,15 +147,20 @@
             color: white;
             background-color: #EA352C;
             margin-right: 10px;
+            float:right;
+            line-height: 1.3;
           }
           .header-btn__signup {
             color: #0099E8;
             border: solid 1px #0099E8;
+            float: right;
+            margin-right: 15px;
           }
           .header-btn__signup:hover {
             color: white;
             background-color: #0099E8;
             transition: 0.3s;
+            float: right;
           }
         }
       }
